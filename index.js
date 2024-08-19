@@ -11,7 +11,7 @@ const BookingRoutes = require('./routes/BookingRoutes')
 const app = express()
 const port = 3000
 app.use(cors({
-  origin:["http://localhost:5173"],
+  origin:["https://carixe-rent-app-frondend-2024.vercel.app"],
   methods:["GET", "POST", "PATCH", "DELETE"],
   credentials: true 
 }))
